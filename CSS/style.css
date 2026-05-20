@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: white;  
+}
+
+/*Header*/
+.header {
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.header h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 15px;
+    opacity: 70%;
+}
+
+/*Cards*/
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px darkgray;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 95%;
+}
+
+.card h2 {
+    font-size: 25px;
+}
+
+/*Images*/
+.img-regular {
+    width: 250px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.img-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.img-oval {
+    width: 300px;
+    height: 180px;
+    border-radius: 50% / 30%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+/*Table*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: lightgrey;
+    margin-top: 10px;
+}
+
+th {
+    background-color: lightskyblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+    background-color: white;
+}
+
+/*Form*/
+.form-container {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.form-container h2 {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.required {
+    color: red;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.buttonsubmit{
+    background-color: lightskyblue;
+    color: white;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    padding: 9px 15px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.buttonreset {
+    background-color: lightskyblue;
+    color: white;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    padding: 9px 15px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.inline-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 6px;
+}
+
+.inline-group label {
+    font-weight: normal;
+}
